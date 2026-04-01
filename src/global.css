@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --font-family: "Inter", sans-serif;
+  font-family: var(--font-family);
+  --text: 400 1rem/1.5 var(--font-family);
+  --text-sm: 400 0.875rem/1.4 var(--font-family);
+}
+
+@utility bg-brand-gradient {
+  background: linear-gradient(#fc4a1a, #f7b733);
+}
+
+@theme {
+  --color-brand-primary: #f7b733;
+  --color-brand-secondary: #fc4a1a;
+  --color-background: #09090b;
+  --color-surface: #18181b;
+  --color-stroke: #27272a;
+  --color-text-primary: #f4f4f5;
+  --color-text-secondary: #a1a1aa;
+}
+
+@layer base {
+  h1 {
+    @apply text-[40px] leading-[120%] font-extrabold md:text-[64px];
+  }
+  h2 {
+    @apply text-[24px] leading-[120%] font-extrabold md:text-[48px];
+  }
+  h3 {
+    @apply text-[20px] leading-[120%] font-extrabold md:text-[32px];
+  }
+  span {
+    @apply text-[14px] leading-[100%] font-medium;
+  }
+  p {
+    @apply text-[16px] leading-[160%] font-normal;
+  }
+}
