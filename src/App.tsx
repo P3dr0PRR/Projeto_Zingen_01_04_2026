@@ -1,5 +1,12 @@
+import { Header } from "./components/header";
+
 function App() {
-  return <main></main>;
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <main className="bg-background flex-grow"></main>
+    </div>
+  );
 }
 
 export default App;
