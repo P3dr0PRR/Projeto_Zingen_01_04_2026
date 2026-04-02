@@ -38,3 +38,7 @@
     @apply text-[16px] leading-[160%] font-normal;
   }
 }
+
+ul {
+  list-style: none;
+}
