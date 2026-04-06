@@ -4,11 +4,14 @@ import mobile from "../assets/icons/mobile.png";
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden px-[1rem] py-[24px] flex flex-col items-center justify-center md:px-[3rem] md:py-[48px] min-h-screen">
+    <section
+      className="bg-background relative overflow-hidden px-[1rem] py-[24px] flex flex-col items-center justify-center md:px-[3rem] md:py-[48px]  "
+      id="#"
+    >
       <img
         src={bg}
         alt=""
-        className="absolute bottom-0 left-0 w-full pointer-events-none select-none"
+        className="absolute bottom-0 md:bottom-[-4rem] left-0 w-full pointer-events-none select-none"
       />
       <div className="relative z-10 flex flex-col justify-center items-center md:mb-[6.25rem] mx-[24px] md:mx-[10.25rem]">
         <div className="flex flex-col justify-center items-center gap-[1rem]">
