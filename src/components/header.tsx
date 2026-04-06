@@ -10,19 +10,31 @@ export function Header() {
 
         <div className="gap-[24px] flex items-center ">
           <ul className="gap-[24px] flex items-center">
-            <li className="hidden md:block hover:text-brand-gradient cursor-pointer text-text-secondary">
+            <a
+              href="#conheça"
+              className="hidden md:block hover:text-brand-gradient cursor-pointer text-text-secondary"
+            >
               Conheça o app
-            </li>
-            <li className="hidden md:block hover:text-brand-gradient cursor-pointer text-text-secondary">
+            </a>
+            <a
+              href="#funcionalidades"
+              className="hidden md:block hover:text-brand-gradient cursor-pointer text-text-secondary"
+            >
               Funcionalidades
-            </li>
-            <li className="hidden md:block hover:text-brand-gradient cursor-pointer text-text-secondary">
+            </a>
+            <a
+              href="#planos"
+              className="hidden md:block hover:text-brand-gradient cursor-pointer text-text-secondary"
+            >
               Planos e preços
-            </li>
+            </a>
           </ul>
-          <span className="cursor-pointer bg-text-primary hover:hover:bg-brand-gradient text-background p-[1rem] rounded-[8px]">
+          <a
+            href="#download"
+            className="cursor-pointer flex justify-center items-center bg-text-primary hover:hover:bg-brand-gradient text-background p-[1rem] rounded-[8px]"
+          >
             Baixar agora
-          </span>
+          </a>
         </div>
       </nav>
     </header>
