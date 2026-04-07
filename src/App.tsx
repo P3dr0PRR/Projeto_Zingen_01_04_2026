@@ -4,6 +4,7 @@ import { Conheca } from "./components/conheca";
 import { Features } from "./components/features";
 import { Planos } from "./components/planos";
 import { Download } from "./components/download";
+import { Footer } from "./components/footer.js";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Features />
         <Planos />
         <Download />
+        <Footer />
       </div>
     </div>
   );
