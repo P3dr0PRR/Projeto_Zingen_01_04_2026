@@ -15,7 +15,7 @@ export function Features() {
     >
       <span className="text-brand-primary">Conheça o app</span>
 
-      <div className="w-full grid md:grid-cols-4 gap-[1rem] mt-10">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-[1rem] mt-10">
         <div className="bg-stroke rounded-xl p-[24px]">
           <img
             src={magic}
@@ -31,8 +31,8 @@ export function Features() {
           </p>
         </div>
 
-        <div className="md:col-span-2 bg-stroke rounded-xl p-[24px] flex gap-[1rem] items-start">
-          <div>
+        <div className="xl:col-span-2 bg-stroke rounded-xl p-[24px] flex gap-[1rem] items-start">
+          <div className="flex-1">
             <img
               src={game}
               alt="Game Controller"
@@ -47,7 +47,7 @@ export function Features() {
           <img
             src={tela2}
             alt="Tela 2"
-            className="hidden md:block w-[40%] h-auto object-contain self-end"
+            className="hidden xl:block w-[40%] h-auto object-contain self-end"
           />
         </div>
 
@@ -65,13 +65,13 @@ export function Features() {
           </p>
         </div>
 
-        <div className="md:col-span-2 bg-stroke rounded-xl p-[24px] flex gap-[1rem] items-start">
+        <div className="xl:col-span-2 bg-stroke rounded-xl p-[24px] flex gap-[1rem] items-start">
           <img
             src={tela1}
             alt="Tela 1"
-            className="hidden md:block w-[40%] h-auto object-contain self-end"
+            className="hidden xl:block w-[40%] h-auto object-contain self-end"
           />
-          <div>
+          <div className="flex-1">
             <img
               src={users}
               alt="Users Three"
@@ -85,8 +85,8 @@ export function Features() {
           </div>
         </div>
 
-        <div className="md:col-span-2 bg-stroke rounded-xl p-[24px] flex gap-[1rem] items-start">
-          <div>
+        <div className="md:col-span-2 xl:col-span-2 bg-stroke rounded-xl p-[24px] flex gap-[1rem] items-start">
+          <div className="flex-1">
             <img
               src={music}
               alt="Music Notes"
@@ -102,7 +102,7 @@ export function Features() {
           <img
             src={tela3}
             alt="Tela 3"
-            className="hidden md:block w-[40%] h-auto object-contain self-end"
+            className="hidden xl:block w-[40%] h-auto object-contain self-end"
           />
         </div>
       </div>
