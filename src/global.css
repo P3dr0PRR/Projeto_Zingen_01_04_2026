@@ -50,6 +50,10 @@ ul {
   background-clip: text;
 }
 
+@utility bg-separator {
+  background: radial-gradient(ellipse at center, #a1a1aa 0%, #18181b 70%);
+}
+
 html {
   scroll-behavior: smooth;
 }
