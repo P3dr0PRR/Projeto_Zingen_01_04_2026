@@ -12,7 +12,7 @@ export function Planos() {
           Assine e tenha acesso ilimitado a todas as funcionalidades
         </h2>
       </header>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-[2rem]">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-[2rem]">
         <div className="bg-surface rounded-2xl p-[2rem]">
           <div className="space-y-[24px]">
             <h3 className="text-text-primary">Básico</h3>
