@@ -3,6 +3,7 @@ import { HeroSection } from "./components/heroSection";
 import { Conheca } from "./components/conheca";
 import { Features } from "./components/features";
 import { Planos } from "./components/planos";
+import { Download } from "./components/download";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <div className="px-[24px] md:px-[7rem]">
         <Features />
         <Planos />
+        <Download />
       </div>
     </div>
   );
