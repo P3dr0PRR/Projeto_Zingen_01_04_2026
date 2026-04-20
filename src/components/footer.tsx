@@ -55,9 +55,7 @@ export function Footer() {
           <span className="text-text-secondary">
             Desenvolvido por Pedro Paulo
           </span>
-          <span className="text-text-secondary">
-            ©2024 Zingen Technologies, Inc.
-          </span>
+          <span className="text-text-secondary">©2026 Zingen</span>
         </div>
       </div>
     </section>
